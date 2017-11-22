@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Set up the application by running `bin/setup`
 
-Things you may want to cover:
+Run the application using `bin/rails s`
 
-* Ruby version
+Assess the site on `http://localhost:3000?touch=<N>` where <N> is the number of records you want to touch to fortce the cache to miss them.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Watch the log to see what queries are running.
